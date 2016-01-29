@@ -19,3 +19,20 @@ Pizza.prototype.pizzaCost = function() {
   }
   return cost;
 }
+
+$(document).ready(function() {
+  $("form").submit(function(event) {
+    event.preventDefault();
+    var inputPizzaSize = $("select.size").val();
+    console.log("Pizza Size: ", inputPizzaSize);
+
+    var inputPizzaToppings = [];
+    $("input:checked").each(function() {
+      inputPizzaToppings.push($(this).val());
+    });
+
+    console.log("Toppings Array: ", inputPizzaToppings);
+    var pizza = new Pizza(inputPizzaSize, inputPizzaToppings);
+    console.log("Pizza: ", pizza);
+  });
+});
