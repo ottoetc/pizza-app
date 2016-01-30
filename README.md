@@ -12,6 +12,10 @@ _This website uses a pizza constructor to create pizza's with custom toppings"_
 
 * _This is a website based program with no special setup requirements_
 
+## Support and contact details
+
+_[Click here](http://ottoetc.github.io/pizza-app/) to check out the app._
+
 ## Technologies Used
 
 _This was built using Javascript and jQuery with styling done using Bootstrap. Specs and testing done with Chai.js and Mocha.js_
