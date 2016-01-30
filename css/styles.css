@@ -6,3 +6,17 @@
   text-align: center;
 
 }
+button {
+  background-color: #FF6347;
+}
+#show-order {
+  display: none;
+}
+
+select:invalid {
+  color: gray;
+}
+
+.pizza-link {
+
+}
